@@ -1,0 +1,19 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@vercel/kv": "^3.0.0",
+    "nuxt": "^3.13.2",
+    "nuxt-mongoose": "^1.0.6",
+    "vue": "latest",
+    "vue-router": "latest"
+  }
+}
