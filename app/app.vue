@@ -5,5 +5,5 @@
 </template>
 
 <script setup lang="ts">
-const user = fetch('/api/user')
+const { data: user } = await useFetch('/api/user')
 </script>
